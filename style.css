@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./Leonardo_Phoenix_A_sleek_and_modern_web_application_background_3.jpg);
+    background-size: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+}
+
+.container {
+    padding: 20px 20px 30px 20px;
+    background-color: rgba(24, 27, 87, 0.564);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+    position: relative;
+    right: 120px;
+}
+
+.head,
+.para {
+    letter-spacing: 4px;
+    padding: 10px;
+}
+
+.fpara {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+}
+
+button {
+    margin: 10px;
+    padding: 15px 50px;
+    border-radius: 5px;
+    background-color: rgb(9, 236, 160);
+    border: none;
+    color: rgb(249, 249, 249);
+    transition: all 0.3s;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button:hover {
+    background-color: rgba(66, 221, 169, 0.875);
+    box-shadow: 0px 0px 8px rgb(255, 166, 0);
+}
